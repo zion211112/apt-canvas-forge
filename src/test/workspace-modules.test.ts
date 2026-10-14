@@ -12,6 +12,7 @@ describe('APT-LABS module surfaces', () => {
         if (name === 'Kernel' && page === 'Overview') continue;
         const records = moduleRecords[name][page];
         expect(records?.length).toBeGreaterThan(0);
+        if (!records) throw new Error(`Missing records for ${name} / ${page}`);
         expect(new Set(records.map(r => r.id)).size).toBe(records.length);
       }
     });
