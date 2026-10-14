@@ -6,6 +6,6 @@
 - [x] Verify interactions and route metadata.
 
 ## Focused design refinement
-- [ ] Remove Kemet OS / Workspace toggle and redundant module tabs.
-- [ ] Give network, builds, operations, research, and kernel records purpose-specific layouts.
-- [ ] Connect related pages without duplicate content; verify selection and search.
+- [x] Remove Kemet OS / Workspace toggle and redundant module tabs.
+- [x] Give network, builds, operations, research, and kernel records purpose-specific layouts.
+- [x] Connect related pages without duplicate content; verify selection and search.
